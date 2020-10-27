@@ -1,0 +1,174 @@
+body {
+    min-width: 700px;
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 190px;
+}
+
+.container .column {
+    position: relative;
+    float: left;
+}
+
+.center {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.left {
+    width: 180px;
+    padding: 0 10px;
+    right: 240px;
+    margin-left: -100%;
+}
+
+.right {
+    width: 130px;
+    padding: 0 10px;
+    margin-right: -100%;
+}
+
+.footer {
+    clear: both;
+}
+.container {
+    overflow: hidden;
+}
+.container .column {
+    padding-bottom: 1001em;
+    margin-bottom: -1000em;
+}
+
+.footer-wrapper {
+    float: left;
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+p {
+    color: #555;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 5px;
+}
+
+nav ul a {
+    color: green;
+    text-decoration: none;
+}
+.header, .footer {
+    height: 70px;
+    font-size: large;
+    padding: 0.3em;
+    background: #BCCE98;
+}
+
+.left {
+    background: #DAE9BC;
+}
+.right {
+    background: #F7FDEB;
+}
+.center {
+    background: #fff;
+}
+.container .column {
+    padding-top: 1em;
+}
+.logo{
+    height: 60px;
+    width: 40px;
+    float: left;
+    padding: 5px;
+    margin-right: 20px;
+    position: relative;
+    background-image: url("../img/website.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table{
+    border: 1px solid #ee6;
+    width: 100%;
+}
+
+tr>*{
+    border: 1px solid #ee6;
+    color: #000;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+tr>th{
+    background-color: #aaa;
+    padding: 10px;
+}
+
+
+
+
+form{
+    display: flex;
+    width: 100%;
+}
+
+form>div{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    padding-top: 0;
+}
+
+form>div>p, input, select, textarea{
+    color: #888;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+    font-size: 10pt;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #aaa;
+}
+
+form>div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+form>div>div>select{
+    width: 30%;
+}
+
+form>div>div>input{
+    width: 60%;
+}
+
+form>div>p{
+    border-bottom: 0;
+}
+
+.button{
+    background-color: #ddd;
+    color: #666;
+    border: 0;
+    width: 30%;
+    height: 30px;
+}
+.check{
+    width: 5%;
+}
