@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>3 Column Layout</title>
+    <title>Slider</title>
     <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
 </head>
 <body>
 <header class="header">
@@ -12,7 +13,11 @@
 </header>
 <div class="container">
     <main class="center column">
-
+        <article>
+            <div id="mySlider"></div>
+            <button onclick="prevSlide()">Prev</button>
+            <button onclick="nextSlide()">Next</button>
+        </article>
     </main>
     <nav class="left column">
         <h3>Menu</h3>
@@ -32,5 +37,6 @@
         <p>Footer...</p>
     </footer>
 </div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
