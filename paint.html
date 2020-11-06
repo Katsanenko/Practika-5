@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/layout1.css">
+    <script src="./assets/js/paint.js" defer></script>
+    <title>Paint</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="slider.html">Slider</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="paint.html">Paint</a></li>
+        </ul>
+    </nav>
+</header>
+<div style="display: flex; margin-top: 10vh;">
+    <canvas id="draw" width="490" height="220" style="margin: auto;background-color: white; border: 2px solid grey;"></canvas>
+</div>
+<div style="display: flex; justify-content: center;">
+    <button id="clear-btn">Clear</button>
+    <div style="display: flex; flex-flow: column;">
+        <input type="text" id="color-input" placeholder="Color">
+        <button id="set-color-btn">Set</button>
+    </div>
+    <div style="display: flex; flex-flow: column;">
+        <input type="number" id="width-input" placeholder="Width">
+        <button id="set-width-btn">Set</button>
+    </div>
+</div>
+</body>
+</html>
